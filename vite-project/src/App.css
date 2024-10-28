@@ -1,0 +1,32 @@
+/* src/App.css */
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.puppy-list {
+  margin: 20px 0;
+}
+
+.puppy-list p {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.puppy-list p:hover {
+  background-color: #e0e0e0;
+}
+
+.featured-puppy {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
